@@ -48,4 +48,4 @@ def main():
     turtle.hideturtle()
     turtle.done()
 main()
-print("used time:{}".format(time.perf_counter()-start))
+print("time consuming:{}".format(time.perf_counter()-start))
